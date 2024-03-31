@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Fruit Shop Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img src="logo1.jpg"
+            id="header-img"
+        /></a>
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#varieties" class="nav-link">VARIETIES</a>
+          <a href="#our-service" class="nav-link">OUR SERVICE</a>
+          <a href="#benefits" class="nav-link">BENEFITS</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="freshs1.jpg" alt="Image of Apples" />
+        </div>
+        <div class="eye-grabber">
+          <h1>Sweet, Juicy, Natural.</h1>
+          <h2>
+            100% Organic, strawberries thrive under the sun, delivering a burst of freshness straight from the vine.
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+            Buy Now
+          </button>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="sec-content-div flexible">
+          <p>
+            Our journey with strawberries spans generations, cultivating a deep-rooted passion for perfection. 
+            Nestled in the verdant landscapes of Central California, our strawberries benefit from the region's rich soil and ideal climate. 
+            With meticulous care and attention to detail, we handpick each berry at the peak of ripeness. 
+            Experience the taste of our dedication with strawberries that capture the essence of nature's abundance, grown and nurtured with love.
+          </p>
+          <img src="farm2.jpg" alt="strawberry farm Image" />
+        </div>
+      </section>
+      <section id="varieties" class="sec-padding">
+        <h3 class="section-heading">VARIETIES</h3>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img src="Red RS4.jpg" alt="photo of red rhapsody" />
+            <h4>Red Rhapsody</h4>
+            <p>
+              Perfect strawberries from Central California. 
+              Juicy, sweet, and handpicked for you. Taste perfection with every bite.
+            </p>
+          </div>
+          <div class="tile">
+            <img
+              src="marihime1.png"
+              alt="photo of marihime"
+            />
+            <h4>Marihime strawberry</h4>
+            <p>
+                Japanese perfection in every sweet and tender bite, handpicked for your delight.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="red diamond1.png" alt="photo of red diamond" />
+            <h4>Red Diamond</h4>
+            <p>
+                Exquisite sweetness meets unparalleled freshness in every vibrant bite of Red Diamond strawberries—a true gem among berries.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="mara de bois.png" alt="red diamond1" />
+            <h4>Mara De Bois</h4>
+            <p>
+                A French delicacy, embody exquisite sweetness and aroma, captivating palates with 
+                their unique flavor profile and tender texture.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="Suncoast delight.jpeg" alt="Suncoast Delight" />
+            <h4>Suncoast Delight</h4>
+            <p>
+                Suncoast Delight strawberries,
+                 bathed in the warmth of coastal sun, offer a burst of sweetness and juiciness,
+                  delivering a taste of pure delight in every bite.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="awayuki1.png" alt="photo of Awayuki" />
+            <h4>Awayuki</h4>
+            <p>
+              A variety with comparatively longer shelf life, it is crispy,
+              juicy and has thick greenish-white flesh which turns golden upon
+              ripening. It is available till January.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="our-service" class="sec-padding">
+        <h3 class="section-heading">OUR SERVICE</h3>
+        <div class="sec-content-div">
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/w6H542X/Fresh.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Fresh</h5>
+              <p>We deliver fresh strawberry with a 100% guarantee of freshness.</p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/FKNq4Qr/delivered.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Fast</h5>
+              <p>
+                We deliver your orders as fast as possible, delivery procedure
+                begins as soon as strawberry is plucked from tree.
+              </p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/HHQK1wV/happy.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Satisfying</h5>
+              <p>
+                We guarantee 100% customer satisfaction. We do our best to make
+                your purchase experience smooth. But if we mess up somehow you
+                will get compensated for every inconvenience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="benefits" class="sec-padding">
+        <h3 class="section-heading">BENEFITS</h3>
+        <div class="sec-content-div flexible">
+            <iframe width="420" height="315"
+            src="https://www.youtube.com/embed/9C55k94JkfU">
+            
+            </iframe>
+        </div>
+      </section>
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT</h3>
+        <div class="sec-content-div flexible">
+          <h6>To make an order or just to know more contact us :</h6>
+          <form
+            id="form"
+            action="https://www.freecodecamp.com/email-submit"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Know More" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Created by
+      <a href="#">Gouri Bijwe</a>
+    </footer>
+  </body>
+</html>
